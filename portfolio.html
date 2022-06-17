@@ -16,26 +16,25 @@
   </head>
   <body class="body">
     <header class="header">
+      <div class="container">
         <a class="logo" href="index.html"><span style="color: #2196F3;">Web</span>studio</a>
         <nav>
           <ul class="menu">
-            <li><a class="menu-item" href="index.html">Agencja</a></li>
-            <li><a class="menu-item" href="portfolio.html">Portfolio</a></li>
-            <li><a class="menu-item" href="kontakty.html">Kontakty</a></li>
+            <li class="menu-item"><a href="index.html">Agencja</a></li>
+            <li class="menu-item"><a href="portfolio.html">Portfolio</a></li>
+            <li class="menu-item"><a href="kontakty.html">Kontakty</a></li>
           </ul>
         </nav>
         <ul class="contacts">
-          <li>
+          <li class="contacts-item">
             <a
-              class="contacts-item"
               href="mailto:info@example.com"
               style="text-decoration: none"
               >info@example.com</a
             >
           </li>
-          <li>
+          <li class="contacts-item">
             <a
-              class="contacts-item"
               href="tel:+48111111111"
               style="text-decoration: none"
             >
@@ -43,22 +42,22 @@
             >
           </li>
         </ul>
+    </div>
     </header>
 
     <main>
-      <section>
+      <div class="container">
+      <section class="section">
         <h2 hidden>Portfolio</h2>
         <!-- Portfolio -->
         <ul class="filters">
           <!-- Filters -->
-          <li><button class="filters-item">Wszystkie</button></li>
-          <li><button class="filters-item">Strony</button></li>
-          <li><button class="filters-item">Aplikacje</button></li>
-          <li><button class="filters-item">Dizajn</button></li>
-          <li><button class="filters-item">Marketing</button></li>
+          <li class="filters-item"><button class="filters-button">Wszystkie</button></li>
+          <li class="filters-item"><button class="filters-button">Strony</button></li>
+          <li class="filters-item"><button class="filters-button">Aplikacje</button></li>
+          <li class="filters-item"><button class="filters-button">Dizajn</button></li>
+          <li class="filters-item"><button class="filters-button">Marketing</button></li>
         </ul>
-      </section>
-      <section>
         <h2 hidden>Our Projects</h2>
         <ul class="projects">
           <li class="project-card">
@@ -153,26 +152,25 @@
           </li>
         </ul>
       </section>
+    </div>
     </main>
 
     <footer class="footer">
+      <div class="container">
       <a class="logo-bot" href="index.html"><span style="color: #2196F3;">Web</span>studio</a>
       <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
-      <address>
+      <address class="address-contact">
         <a
-          class="address-contact"
           href="mailto:info@example.com"
           style="text-decoration: none"
           >info@example.com</a
         >
-        <a
-          class="address-contact"
-          href="tel:+48111111111"
-          style="text-decoration: none"
-        >
-          +48 111 111 111</a
-        >
       </address>
+      <address class="address-contact">
+        <a
+           href="tel:+48111111111" style="text-decoration: none"> +48 111 111 111</a>
+      </address>
+      </div>
     </footer>
   </body>
 </html>
